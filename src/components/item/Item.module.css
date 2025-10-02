@@ -1,0 +1,20 @@
+.cont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.item {
+    text-align: left;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    align-self: center;
+
+    &:last-child {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

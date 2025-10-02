@@ -1,0 +1,20 @@
+.cont {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 680px;
+    margin: 20px auto 0;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 10px;
+}
+
+.headerItem {
+    text-align: left;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+}

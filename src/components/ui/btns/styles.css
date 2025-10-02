@@ -1,0 +1,33 @@
+.sbmtBtn {
+    display: block;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px 30px;
+    height: 60px;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+
+    &:hover {
+        background-color: rgb(187, 186, 186);
+    }
+}
+
+.changeBtn {
+    font-size: 24px;
+    display: block;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    padding: 5px;
+}
+
+.delBtn {
+    font-size: 16px;
+    display: block;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    padding: 5px;
+}
